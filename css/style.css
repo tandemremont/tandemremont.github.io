@@ -1208,3 +1208,21 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .modal-overlay-show{
   display: block;
 }
+
+@media (max-width: 768px) {
+  .modal-content{
+    margin: -50px 0 0 -150px;
+    padding: 20px 24px 22px;
+    width: 300px;
+    height: 100px;
+  }
+  .modal-content h5{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .modal-content p{
+    font-size: 6px;
+    line-height: 12px;
+  }
+}
